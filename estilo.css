@@ -1,0 +1,35 @@
+body{
+    font-family: arial, helvertica;
+    background: #e8e8e8
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #88cdd8;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
